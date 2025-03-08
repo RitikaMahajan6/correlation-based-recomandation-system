@@ -1,0 +1,15 @@
+dataset.csv is intended to be a placeholder for the original dataset downloaded from Kaggle. Since I cannot access external datasets, I will provide a sample structure for the dataset that you can replace with the actual data later. 
+
+Here are the contents for the file:
+
+item_id,item_name,user_id,rating,review
+1,Item A,101,5,"Excellent product, highly recommend!"
+2,Item B,102,4,"Very good, but could be improved."
+3,Item C,103,3,"Average experience, nothing special."
+4,Item D,104,2,"Not what I expected, disappointing."
+5,Item E,105,1,"Terrible, do not buy this item."
+6,Item F,106,5,"Loved it! Will buy again."
+7,Item G,107,4,"Good quality, satisfied with the purchase."
+8,Item H,108,3,"It's okay, but I've seen better."
+9,Item I,109,2,"Not worth the price."
+10,Item J,110,5,"Fantastic! Exceeded my expectations."
