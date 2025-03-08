@@ -2,7 +2,7 @@
 Correlation-Based Recommendation System
 This project implements a correlation-based recommendation system enhanced with semantic analysis techniques. The system utilizes a dataset sourced from Kaggle to provide personalized recommendations based on user preferences and item similarities.
 
-Project Structure
+# Project Structure
 data/: Contains the datasets used in the project.
 
 raw/: Original dataset downloaded from Kaggle.
@@ -25,7 +25,7 @@ requirements.txt: Lists the dependencies required for the project.
 
 README.md: Documentation for the project.
 
-Getting Started
+# Getting Started
 Clone the Repository: Clone this repository to your local machine using:
 
 git clone <repository-url>
@@ -40,7 +40,7 @@ Generating Recommendations: Use the recommendation.py script to generate recomme
 
 Semantic Analysis: The semantic_analysis.py script can be used to perform semantic analysis on the text data associated with the items to enhance recommendations.
 
-Usage Example
+ # Usage Example
 To train the model and generate recommendations, you can run the following commands in your Python environment:
 
 from src.data_preprocessing import load_and_process_data
@@ -56,5 +56,5 @@ model = train_model(processed_data)
 # Get recommendations for a user
 recommendations = get_recommendations(user_input)
 print(recommendations)
-Conclusion
+# Conclusion
 This correlation-based recommendation system provides a robust framework for generating personalized recommendations. By integrating semantic analysis, the system enhances the quality of recommendations based on user preferences and item similarities. Explore the code and modify it to suit your needs!
